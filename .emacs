@@ -11,3 +11,9 @@
 
 ;; Use 4 spaces to tab C and C++ code
 (setq-default c-basic-offset 4)
+
+;; Disable syntax colouring
+(global-font-lock-mode 0)
+
+;; Auto refresh buffers
+(global-auto-revert-mode)
