@@ -9,8 +9,9 @@
 ;; Replace tabs with spaces
 (setq indent-tabs-mode nil)
 
-;; Use 4 spaces to tab C and C++ code
-(setq-default c-basic-offset 4)
+;; Use K&R formatting and 4 spaces to tab C and C++ code
+(setq c-default-style "k&r"
+          c-basic-offset 4)
 
 ;; Disable syntax colouring
 (global-font-lock-mode 0)
